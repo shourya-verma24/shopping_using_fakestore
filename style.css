@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(15, 2, 2)
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: black;
+  font-weight: bold;
+  
+}
+#container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #670404;
+    border-radius: 10px;
+    padding: 7px;
+
+  
+}
+.card img {
+  height: auto;
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+.card p{
+  color: #d8caca;
+}
+.card h3{
+  color: white;
+}
+
+a{
+  color: red;
+}
